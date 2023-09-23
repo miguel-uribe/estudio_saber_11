@@ -1,5 +1,4 @@
 dash==2.9.3
 dash_bootstrap_components
-pickle
 plotly
 gunicorn
