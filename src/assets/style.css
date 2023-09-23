@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+.H1SB {
+  margin-top: 3vmax;
+  text-transform: uppercase;
+  font-size: 2vmax;
+  color: white;
+  text-align: center;
+}
+.H1MP {
+  text-transform: uppercase;
+  font-size: 2.5vmax;
+  color: rgb(32, 43, 81);
+  text-align: center;
+}
+.PSB {
+  font-size: 1vmax;
+  color: white;
+  text-align: center;
+}
+
+.PMP {
+  font-size: 1.2vmax;
+  color: black;
+  text-align: left;
+}
+
+.BTXT {
+  font-size: 1vmax;
+  color: white;
+  text-align: center;
+  width: 90%;
+  height: 2vmax;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.BTXT2 {
+  font-size: 1vmax;
+  color: white;
+  text-align: center;
+  width: 30%;
+  height: 4vmax;
+}
+
+
+.BPG {
+  font-size: 0.8vmax;
+  color: black;
+  text-align: center;
+  width: 90%;
+  margin-top: 5%;
+}
+
+
+.PMT {
+  font-size: 2vmax;
+  color: rgb(32, 43, 81); 
+}
+
+.nbar{
+  font-size: 1.5vmax;
+}
+
+#SIDEBAR {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 100%;
+    padding: 2vmax 1vmax;
+    background-color: rgb(32, 43, 81);
+    display: inline-block
+}
+
