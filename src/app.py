@@ -50,4 +50,4 @@ app.layout = html.Div([sidebar, content], style ={'display': 'inline-block'})
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server()
