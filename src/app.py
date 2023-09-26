@@ -34,7 +34,8 @@ sidebar = html.Div(
                 dbc.NavLink("Históricos", href="/evtemp", active="exact"),
                 dbc.NavLink("Por Estrato", href="/estrato", active="exact"),
                 dbc.NavLink("Por Tipo Colegio", href="/colegio", active="exact"),
-                dbc.NavLink("Por Municipio", href="/maps", active="exact"),
+                dbc.NavLink("Por Ubicación", href="/maps", active="exact"),
+                dbc.NavLink("Análisis Estadístico", href="/statistics", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -50,4 +51,4 @@ app.layout = html.Div([sidebar, content], style ={'display': 'inline-block'})
 
 
 if __name__ == "__main__":
-    app.run_server()
+    app.run_server(debug=True)
